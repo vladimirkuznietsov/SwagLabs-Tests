@@ -22,7 +22,7 @@ public class ShoppingCartPage extends PageTools {
     }
 
     public void clickOnTheRemoveButton () {
-        click(removeButton);
+        getSelenideElement(removeButton).shouldBe(Condition.enabled).click();
     }
 
     public void clickOnTheContinueShoppingButton () {
