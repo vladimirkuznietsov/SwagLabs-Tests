@@ -1,5 +1,6 @@
 package ShoppingCartTests;
 
+import com.codeborne.selenide.Selenide;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -16,7 +17,8 @@ public class VerifyUserCanRemoveItemFromCartTest extends WebDriverConfigs {
 
         Pages.homePage().addAllItemsToCart();
         Pages.homePage().clickOnTheShoppingCartIcon();
-        Pages.shoppingCartPage().clickOnTheRemoveButton(0);
+        Selenide.sleep(1000);
+        Pages.shoppingCartPage().clickOnTheRemoveButton();
         Pages.shoppingCartPage().clickOnTheContinueShoppingButton();
         Assert.assertEquals(Pages.homePage().getAddToCartButtons().get(0).getText(), "ADD TO CART");
     }

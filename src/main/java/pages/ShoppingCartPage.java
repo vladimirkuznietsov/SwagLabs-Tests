@@ -13,7 +13,7 @@ import static com.codeborne.selenide.Selenide.$x;
 
 public class ShoppingCartPage extends PageTools {
     private final By itemNames = By.xpath("//div[contains(@class, 'inventory_item_name')]");
-    private final By removeButtons = By.xpath("//button[text()='Remove']");
+    private final By removeButton = By.xpath("//button[@id=\"remove-sauce-labs-backpack\"]");
     private final By continueShoppingButton = By.xpath("//button[text()='Continue Shopping']");
     private final By checkoutButton = By.xpath("//button[@name=\"checkout\"]");
 
@@ -21,10 +21,8 @@ public class ShoppingCartPage extends PageTools {
         return getTexts(itemNames);
     }
 
-    public void clickOnTheRemoveButton (int id) {
-        List<SelenideElement> buttons = getSelenideElements(removeButtons);
-        waitForElementVisibility(continueShoppingButton);
-        buttons.get(id).click();
+    public void clickOnTheRemoveButton () {
+        click(removeButton);
     }
 
     public void clickOnTheContinueShoppingButton () {
