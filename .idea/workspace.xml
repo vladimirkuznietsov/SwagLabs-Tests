@@ -47,7 +47,7 @@
       <command value="mvn clean test" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.VerifyUserIsAbleToPurchaseTest">
+  <component name="RunManager" selected="TestNG.VerifyUserCanAddItemsToCartTest">
     <configuration name="CheckCardsEquityTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="E_Commerce" />
       <option name="PACKAGE_NAME" value="" />
@@ -111,10 +111,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.VerifyUserCanAddItemsToCartTest" />
         <item itemvalue="TestNG.VerifyUserIsAbleToPurchaseTest" />
         <item itemvalue="TestNG.VerifyDetailItemCorrespondsItemFromMainPageTest" />
         <item itemvalue="TestNG.CheckSortingTest" />
-        <item itemvalue="TestNG.VerifyUserCanAddItemsToCartTest" />
         <item itemvalue="TestNG.CheckCardsEquityTest" />
       </list>
     </recent_temporary>

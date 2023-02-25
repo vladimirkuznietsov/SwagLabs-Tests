@@ -15,9 +15,8 @@ public class HomePage extends PageTools {
     private final By sortingDropdownOptions = By.xpath("//select[@class='product_sort_container']//option");
     private final By productCardsPrice = By.xpath("//div[@class=\"inventory_item_price\"]");
     private final By addToCartButtons = By.xpath("//div[@class='inventory_item']//button");
-    private final By addToCartButton = By.xpath("//button[text()='Add to cart']");
     private final By sortingButton = By.xpath("//select[@class=\"product_sort_container\"]");
-    private final By shoppingCartButton = By.xpath("//div[@id=\"shopping_cart_container\"]");
+    private final By shoppingCartButton = By.xpath("//a[@class=\"shopping_cart_link\"]");
 
     public ArrayList<String> dropdownOptions () {
         ArrayList<String> options = new ArrayList<>();
@@ -75,8 +74,8 @@ public class HomePage extends PageTools {
 
     public void addAllItemsToCart () {
         List<SelenideElement> addToCartList = getSelenideElements(addToCartButtons);
-        while (addToCartList.size() > 0) {
-            getSelenideElement(addToCartButton).click();
+        for (SelenideElement element : addToCartList) {
+            element.click();
         }
     }
 
