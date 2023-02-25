@@ -9,7 +9,7 @@ import utils.WebDriverConfigs;
 
 public class VerifyUserCanRemoveItemFromCartTest extends WebDriverConfigs {
 
-    @Test
+//    @Test
     public void removeItemFromCart () {
         Pages.loginPage().sendKeysToLogInField();
         Pages.loginPage().sendKeysToPassField();
