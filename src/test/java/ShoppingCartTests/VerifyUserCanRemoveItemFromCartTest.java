@@ -17,7 +17,7 @@ public class VerifyUserCanRemoveItemFromCartTest extends WebDriverConfigs {
 
         Pages.homePage().addAllItemsToCart();
         Pages.homePage().clickOnTheShoppingCartIcon();
-        Selenide.sleep(1000);
+        Selenide.sleep(5000);
         Pages.shoppingCartPage().clickOnTheRemoveButton();
         Pages.shoppingCartPage().clickOnTheContinueShoppingButton();
         Assert.assertEquals(Pages.homePage().getAddToCartButtons().get(0).getText(), "ADD TO CART");
