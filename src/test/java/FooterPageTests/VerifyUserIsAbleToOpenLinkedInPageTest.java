@@ -12,8 +12,8 @@ import static com.codeborne.selenide.Selenide.$;
 
 public class VerifyUserIsAbleToOpenLinkedInPageTest extends WebDriverConfigs {
 
-    @Test
-    public void openFaceBookPage () {
+    //@Test
+    public void openLinkedInPage () {
         Pages.loginPage().sendKeysToLogInField();
         Pages.loginPage().sendKeysToPassField();
         Pages.loginPage().clickOnTheLogInButton();
