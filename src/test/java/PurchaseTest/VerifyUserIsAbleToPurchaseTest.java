@@ -26,6 +26,7 @@ public class VerifyUserIsAbleToPurchaseTest extends WebDriverConfigs {
         Pages.checkoutPage().fillLAstNameField();
         Pages.checkoutPage().fillPostalCodeField();
         Pages.checkoutPage().clickOnContinueButton();
+        Selenide.sleep(2000);
         Assert.assertEquals(Pages.overviewPage().getPurchasedProductName(), itemFromHomepage);
         Pages.overviewPage().clickOnFinishButton();
         Assert.assertEquals(Pages.completePage().getCompleteMessageText(), TestData.COMPLETE_MESSAGE);

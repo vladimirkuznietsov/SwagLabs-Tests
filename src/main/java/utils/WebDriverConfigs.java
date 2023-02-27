@@ -21,7 +21,7 @@ public class WebDriverConfigs {
         Selenide.open("https://www.saucedemo.com/");
     }
 
-    @AfterMethod(alwaysRun = true)
+    @AfterTest(alwaysRun = true)
     public void cleanWebDriver () {
         Selenide.clearBrowserCookies();
         Selenide.refresh();

@@ -47,7 +47,7 @@
       <command value="mvn clean test" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.FooterPageTests">
+  <component name="RunManager" selected="TestNG.&lt;default&gt;">
     <configuration name="FooterPageTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="E_Commerce" />
       <extension name="coverage">
@@ -98,16 +98,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerifyUserIsAbleToOpenTwitterPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="VerifyUserIsAbleToPurchaseTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="E_Commerce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FooterPageTests.*" />
+          <option name="PATTERN" value="PurchaseTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="FooterPageTests" />
-      <option name="MAIN_CLASS_NAME" value="FooterPageTests.VerifyUserIsAbleToOpenTwitterPageTest" />
+      <option name="PACKAGE_NAME" value="PurchaseTest" />
+      <option name="MAIN_CLASS_NAME" value="PurchaseTest.VerifyUserIsAbleToPurchaseTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -115,17 +115,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerifyUserIsAbleToResetAppStateTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="E_Commerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BurgerMenuPageTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="BurgerMenuPageTests" />
-      <option name="MAIN_CLASS_NAME" value="BurgerMenuPageTests.VerifyUserIsAbleToResetAppStateTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
       <properties />
       <listeners />
       <method v="2">
@@ -134,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.&lt;default&gt;" />
+        <item itemvalue="TestNG.VerifyUserIsAbleToPurchaseTest" />
         <item itemvalue="TestNG.FooterPageTests" />
         <item itemvalue="TestNG.VerifyUserIsAbleToOpenLinkedInPageTest" />
         <item itemvalue="TestNG.VerifyUserIsAbleToOpenFaceBookPageTest" />
-        <item itemvalue="TestNG.VerifyUserIsAbleToOpenTwitterPageTest" />
-        <item itemvalue="TestNG.VerifyUserIsAbleToResetAppStateTest" />
       </list>
     </recent_temporary>
   </component>

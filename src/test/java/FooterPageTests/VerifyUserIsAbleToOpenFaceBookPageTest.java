@@ -1,7 +1,10 @@
 package FooterPageTests;
 
 import com.codeborne.selenide.Selenide;
+import org.apache.hc.core5.reactor.Command;
+import org.assertj.core.internal.bytebuddy.build.Plugin;
 import org.testng.Assert;
+import org.testng.TestRunner;
 import org.testng.annotations.Test;
 import utils.Pages;
 import utils.TestData;
@@ -9,7 +12,7 @@ import utils.WebDriverConfigs;
 
 public class VerifyUserIsAbleToOpenFaceBookPageTest extends WebDriverConfigs {
 
-    @Test
+    @Test (priority = 1)
     public void openFaceBookPage () {
         Pages.loginPage().sendKeysToLogInField();
         Pages.loginPage().sendKeysToPassField();
