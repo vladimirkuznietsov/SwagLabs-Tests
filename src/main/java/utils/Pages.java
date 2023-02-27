@@ -11,6 +11,10 @@ public class Pages {
     private static CompletePage completePage;
     private static DetailsItemPage detailsItemPage = new DetailsItemPage();
     private static ItemsHomePage itemsHomePage = new ItemsHomePage();
+    private static BurgerMenuPage burgerMenuPage = new BurgerMenuPage();
+    private static TwitterPage twitterPage = new TwitterPage();
+    private static FaceBookPage faceBookPage = new FaceBookPage();
+    private static LinkedInPage linkedInPage = new LinkedInPage();
 
     public static HomePage homePage () {
         if(homePage == null) homePage = new HomePage();
@@ -50,5 +54,25 @@ public class Pages {
     public static ItemsHomePage itemsHomePage () {
         if (itemsHomePage == null) itemsHomePage = new ItemsHomePage();
         return itemsHomePage;
+    }
+
+    public static BurgerMenuPage burgerMenuPage () {
+        if (burgerMenuPage == null) burgerMenuPage = new BurgerMenuPage();
+        return burgerMenuPage;
+    }
+
+    public static TwitterPage twitterPage () {
+        if(twitterPage == null) twitterPage = new TwitterPage();
+        return twitterPage;
+    }
+
+    public static FaceBookPage faceBookPage () {
+        if(faceBookPage == null) faceBookPage = new FaceBookPage();
+        return faceBookPage;
+    }
+
+    public static LinkedInPage linkedInPage () {
+        if(linkedInPage == null) linkedInPage = new LinkedInPage();
+        return linkedInPage;
     }
 }

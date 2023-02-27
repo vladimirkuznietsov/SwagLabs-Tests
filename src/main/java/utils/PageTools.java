@@ -89,4 +89,9 @@ public class PageTools extends CustomLogger {
         $(byLocator(by, args)).waitUntil(Condition.visible, 15000);
     }
 
+    protected void scrollToElement (By by, Object... args) {
+        logInfo(getPreviousMethodNameAsText() + " element -> " + byLocator(by, args));
+        $(byLocator(by, args)).scrollTo();
+    }
+
 }

@@ -40,5 +40,9 @@ public class LogInPage extends PageTools {
         return getText(errorMessageBox);
     }
 
+    public SelenideElement getLoginButton () {
+        return getSelenideElement(logInButton);
+    }
+
 
 }

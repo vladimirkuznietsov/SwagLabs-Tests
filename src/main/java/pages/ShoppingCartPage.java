@@ -32,4 +32,8 @@ public class ShoppingCartPage extends PageTools {
     public void clickOnCheckoutButton () {
         click(checkoutButton);
     }
+
+    public SelenideElement getItem () {
+        return getSelenideElement(itemNames);
+    }
 }

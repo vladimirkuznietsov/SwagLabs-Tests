@@ -47,56 +47,33 @@
       <command value="mvn clean test" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.VerifyUserCanRemoveItemFromCartTest">
-    <configuration name="CheckSortingTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.FooterPageTests">
+    <configuration name="FooterPageTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="E_Commerce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HomePageTests.*" />
+          <option name="PATTERN" value="FooterPageTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="HomePageTests" />
-      <option name="MAIN_CLASS_NAME" value="HomePageTests.CheckSortingTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="FooterPageTests" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerifyDetailItemCorrespondsItemFromMainPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="E_Commerce" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VerifyDetailItemCorrespondsItemFromMainPageTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VerifyUserCanAddItemsToCartTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="E_Commerce" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ShoppingCartTests.VerifyUserCanAddItemsToCartTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VerifyUserCanRemoveItemFromCartTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="VerifyUserIsAbleToOpenFaceBookPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="E_Commerce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ShoppingCartTests.*" />
+          <option name="PATTERN" value="FooterPageTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ShoppingCartTests" />
-      <option name="MAIN_CLASS_NAME" value="ShoppingCartTests.VerifyUserCanRemoveItemFromCartTest" />
+      <option name="PACKAGE_NAME" value="FooterPageTests" />
+      <option name="MAIN_CLASS_NAME" value="FooterPageTests.VerifyUserIsAbleToOpenFaceBookPageTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -104,10 +81,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerifyUserIsAbleToPurchaseTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="VerifyUserIsAbleToOpenLinkedInPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="E_Commerce" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PurchaseTest.VerifyUserIsAbleToPurchaseTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FooterPageTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="FooterPageTests" />
+      <option name="MAIN_CLASS_NAME" value="FooterPageTests.VerifyUserIsAbleToOpenLinkedInPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerifyUserIsAbleToOpenTwitterPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="E_Commerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FooterPageTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="FooterPageTests" />
+      <option name="MAIN_CLASS_NAME" value="FooterPageTests.VerifyUserIsAbleToOpenTwitterPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerifyUserIsAbleToResetAppState" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="E_Commerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BurgerMenuPageTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BurgerMenuPageTests" />
+      <option name="MAIN_CLASS_NAME" value="BurgerMenuPageTests.VerifyUserIsAbleToResetAppState" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -117,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.VerifyUserCanRemoveItemFromCartTest" />
-        <item itemvalue="TestNG.VerifyUserCanAddItemsToCartTest" />
-        <item itemvalue="TestNG.VerifyUserIsAbleToPurchaseTest" />
-        <item itemvalue="TestNG.VerifyDetailItemCorrespondsItemFromMainPageTest" />
-        <item itemvalue="TestNG.CheckSortingTest" />
+        <item itemvalue="TestNG.FooterPageTests" />
+        <item itemvalue="TestNG.VerifyUserIsAbleToOpenLinkedInPageTest" />
+        <item itemvalue="TestNG.VerifyUserIsAbleToOpenFaceBookPageTest" />
+        <item itemvalue="TestNG.VerifyUserIsAbleToOpenTwitterPageTest" />
+        <item itemvalue="TestNG.VerifyUserIsAbleToResetAppState" />
       </list>
     </recent_temporary>
   </component>

@@ -13,7 +13,7 @@ public class WebDriverConfigs {
         Configuration.pageLoadTimeout = 20000;
         Configuration.timeout = 10000;
         Configuration.startMaximized = true;
-        Configuration.headless = true;
+        Configuration.headless = false;
     }
 
     @BeforeMethod (alwaysRun = true)

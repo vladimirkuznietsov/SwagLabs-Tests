@@ -14,5 +14,6 @@ public class TestData {
     public static final String FIRST_NAME = "USER";
     public static final String LAST_NAME = "USER";
     public static final String POSTAL_CODE = "40001";
+    public static final String SOCIALS_HEADER = "Sauce Labs";
     public static final String COMPLETE_MESSAGE = "Your order has been dispatched, and will arrive just as fast as the pony can get there!";
 }
