@@ -115,7 +115,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerifyUserIsAbleToResetAppState" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="VerifyUserIsAbleToResetAppStateTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="E_Commerce" />
       <extension name="coverage">
         <pattern>
@@ -124,7 +124,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="BurgerMenuPageTests" />
-      <option name="MAIN_CLASS_NAME" value="BurgerMenuPageTests.VerifyUserIsAbleToResetAppState" />
+      <option name="MAIN_CLASS_NAME" value="BurgerMenuPageTests.VerifyUserIsAbleToResetAppStateTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -138,7 +138,7 @@
         <item itemvalue="TestNG.VerifyUserIsAbleToOpenLinkedInPageTest" />
         <item itemvalue="TestNG.VerifyUserIsAbleToOpenFaceBookPageTest" />
         <item itemvalue="TestNG.VerifyUserIsAbleToOpenTwitterPageTest" />
-        <item itemvalue="TestNG.VerifyUserIsAbleToResetAppState" />
+        <item itemvalue="TestNG.VerifyUserIsAbleToResetAppStateTest" />
       </list>
     </recent_temporary>
   </component>

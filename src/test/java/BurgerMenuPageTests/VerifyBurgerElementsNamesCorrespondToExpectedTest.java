@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import utils.Pages;
 import utils.WebDriverConfigs;
 
-public class VerifyElementsNamesCorrespondToExpected extends WebDriverConfigs {
+public class VerifyBurgerElementsNamesCorrespondToExpectedTest extends WebDriverConfigs {
 
     @Test
     public void compareNames () {

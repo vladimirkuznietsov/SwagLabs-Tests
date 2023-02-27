@@ -1,13 +1,12 @@
 package BurgerMenuPageTests;
 
-import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import utils.Pages;
 import utils.WebDriverConfigs;
 
-public class VerifyUserIsAbleToResetAppState extends WebDriverConfigs {
+public class VerifyUserIsAbleToResetAppStateTest extends WebDriverConfigs {
 
     @Test
     public void resetAppState () {

@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import utils.Pages;
 import utils.WebDriverConfigs;
 
-public class VerifyUserIsAbleToOpenAboutPage extends WebDriverConfigs {
+public class VerifyUserIsAbleToOpenAboutPageTest extends WebDriverConfigs {
 
     @Test
     public void navigateToAboutPage () {
