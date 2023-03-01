@@ -21,11 +21,10 @@ public class WebDriverConfigs {
         Selenide.open("https://www.saucedemo.com/");
     }
 
-    @AfterTest(alwaysRun = true)
+    @AfterMethod(alwaysRun = true)
     public void cleanWebDriver () {
         Selenide.clearBrowserCookies();
         Selenide.refresh();
-        Selenide.open("about:blank");
     }
 
     @AfterSuite (alwaysRun = true)

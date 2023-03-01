@@ -14,7 +14,6 @@ public class Pages {
     private static BurgerMenuPage burgerMenuPage = new BurgerMenuPage();
     private static TwitterPage twitterPage = new TwitterPage();
     private static FaceBookPage faceBookPage = new FaceBookPage();
-    private static LinkedInPage linkedInPage = new LinkedInPage();
 
     public static HomePage homePage () {
         if(homePage == null) homePage = new HomePage();
@@ -69,10 +68,5 @@ public class Pages {
     public static FaceBookPage faceBookPage () {
         if(faceBookPage == null) faceBookPage = new FaceBookPage();
         return faceBookPage;
-    }
-
-    public static LinkedInPage linkedInPage () {
-        if(linkedInPage == null) linkedInPage = new LinkedInPage();
-        return linkedInPage;
     }
 }

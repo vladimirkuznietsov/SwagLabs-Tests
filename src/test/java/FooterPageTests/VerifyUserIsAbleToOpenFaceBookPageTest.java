@@ -5,14 +5,17 @@ import org.apache.hc.core5.reactor.Command;
 import org.assertj.core.internal.bytebuddy.build.Plugin;
 import org.testng.Assert;
 import org.testng.TestRunner;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 import utils.Pages;
 import utils.TestData;
 import utils.WebDriverConfigs;
 
+import java.util.List;
+
 public class VerifyUserIsAbleToOpenFaceBookPageTest extends WebDriverConfigs {
 
-    @Test (priority = 1)
+    @Test
     public void openFaceBookPage () {
         Pages.loginPage().sendKeysToLogInField();
         Pages.loginPage().sendKeysToPassField();
@@ -23,5 +26,11 @@ public class VerifyUserIsAbleToOpenFaceBookPageTest extends WebDriverConfigs {
         Selenide.sleep(3000);
         Assert.assertTrue(Pages.faceBookPage().getFaceBookLogo().isDisplayed());
         Assert.assertEquals(TestData.SOCIALS_HEADER, Pages.faceBookPage().getPageHeaderText());
+    }
+
+    @AfterMethod(alwaysRun = true)
+    public void closeWindows () {
+        Selenide.closeWindow();
+        Selenide.switchTo().window(0);
     }
 }

@@ -64,24 +64,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerifyUserIsAbleToOpenFaceBookPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="E_Commerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="FooterPageTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="FooterPageTests" />
-      <option name="MAIN_CLASS_NAME" value="FooterPageTests.VerifyUserIsAbleToOpenFaceBookPageTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VerifyUserIsAbleToOpenLinkedInPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="VerifyUserIsAbleToOpenLinkedInPageTest.openLinkedInPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="E_Commerce" />
       <extension name="coverage">
         <pattern>
@@ -91,6 +74,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="FooterPageTests" />
       <option name="MAIN_CLASS_NAME" value="FooterPageTests.VerifyUserIsAbleToOpenLinkedInPageTest" />
+      <option name="METHOD_NAME" value="openLinkedInPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerifyUserIsAbleToOpenTwitterPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="E_Commerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FooterPageTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="FooterPageTests" />
+      <option name="MAIN_CLASS_NAME" value="FooterPageTests.VerifyUserIsAbleToOpenTwitterPageTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -98,17 +99,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerifyUserIsAbleToPurchaseTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="VerifyUserIsAbleToOpenTwitterPageTest.openTwitterPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="E_Commerce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PurchaseTest.*" />
+          <option name="PATTERN" value="FooterPageTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="PurchaseTest" />
-      <option name="MAIN_CLASS_NAME" value="PurchaseTest.VerifyUserIsAbleToPurchaseTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="FooterPageTests" />
+      <option name="MAIN_CLASS_NAME" value="FooterPageTests.VerifyUserIsAbleToOpenTwitterPageTest" />
+      <option name="METHOD_NAME" value="openTwitterPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -128,10 +130,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.&lt;default&gt;" />
-        <item itemvalue="TestNG.VerifyUserIsAbleToPurchaseTest" />
+        <item itemvalue="TestNG.VerifyUserIsAbleToOpenLinkedInPageTest.openLinkedInPage" />
         <item itemvalue="TestNG.FooterPageTests" />
-        <item itemvalue="TestNG.VerifyUserIsAbleToOpenLinkedInPageTest" />
-        <item itemvalue="TestNG.VerifyUserIsAbleToOpenFaceBookPageTest" />
+        <item itemvalue="TestNG.VerifyUserIsAbleToOpenTwitterPageTest.openTwitterPage" />
+        <item itemvalue="TestNG.VerifyUserIsAbleToOpenTwitterPageTest" />
       </list>
     </recent_temporary>
   </component>

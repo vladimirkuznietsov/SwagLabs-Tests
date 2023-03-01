@@ -43,10 +43,10 @@ public class BurgerMenuPage extends PageTools {
 
     public List<String> getExpectedNamesList () {
         List<String> names = new ArrayList<>();
-        names.add("ALL ITEMS");
-        names.add("ABOUT");
-        names.add("LOGOUT");
-        names.add("RESET APP STATE");
+        names.add("All Items");
+        names.add("About");
+        names.add("Logout");
+        names.add("Reset App State");
         return names;
     }
 

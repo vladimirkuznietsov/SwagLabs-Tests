@@ -21,6 +21,7 @@
         <org.slf4j>1.7.25</org.slf4j>
         <allure.version>2.10.0</allure.version>
         <aspectj.version>1.9.6</aspectj.version>
+        <suiteXmlFile>src\main\resources\testSuite.xml</suiteXmlFile>
     </properties>
     <dependencies>
         <dependency>
@@ -101,6 +102,9 @@
                     <argLine>
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                     </argLine>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+                    </suiteXmlFiles>
                 </configuration>
                 <dependencies>
                     <dependency>
